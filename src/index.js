@@ -1,3 +1,4 @@
 module.exports = function warmup(temperature) {
-  // your implementation here
+  var conv = (temperature * 1.8) + 32;
+  return conv;
 };
